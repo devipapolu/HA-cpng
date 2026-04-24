@@ -1,6 +1,6 @@
 
 🏷️ Title
-Highly Available PostgreSQL Cluster on Kubernetes using CloudNativePG, WAL Replication & HAProxy
+**Highly Available PostgreSQL Cluster on Kubernetes using CloudNativePG, WAL Replication & HAProxy**
 
 📝 Description
 This project implements a highly available PostgreSQL database cluster on a multi-node Kubernetes environment using an operator-based approach.
@@ -11,7 +11,7 @@ Self-healing by recreating failed pods
 Data consistency using WAL-based replication
 Load balancing using HAProxy
 
-🛠️ Tools & Technologies
+**🛠️ Tools & Technologies**
 
 Kubernetes (kubeadm)
 CloudNativePG
@@ -22,7 +22,7 @@ Flannel (CNI networking)
 kubelet, kubeadm, kubectl
 Linux (Ubuntu)
 
-🌐 Architecture
+**🌐 Architecture**
 
 Client
    ↓
@@ -38,7 +38,7 @@ NodePort Service
 | Node 187 → Replica DB          |
 ----------------------------------
 
-⚙️ Steps to Complete This Project (with Commands & Explanation)
+**⚙️ Steps to Complete This Project (with Commands & Explanation)**
 
 🔹 Step 1: System Setup (All Nodes)
 
